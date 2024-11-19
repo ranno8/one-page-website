@@ -1,0 +1,61 @@
+body {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+h1, h2 {
+    color: #007bff; /* Primary color for headings */
+}
+
+.navbar {
+    background-color: #343a40; /* Dark background for the navbar */
+}
+
+.btn-primary {
+    background-color: #28a745; /* Change primary button color */
+}
+body {
+    font-family: 'Arial', sans-serif; /* Main font */
+    font-size: 16px; /* Base font size */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger font size for main heading */
+    font-weight: bold; /* Bold weight */
+}
+
+p {
+    line-height: 1.6; /* Improved readability */
+}
+.container {
+    margin-top: 20px; /* Space above the container */
+}
+
+section {
+    padding: 40px; /* Increased padding for sections */
+    margin-bottom: 30px; /* Space between sections */
+}
+
+.project {
+    margin-bottom: 20px; /* Space between projects */
+    padding: 20px; /* Padding inside project boxes */
+    border-radius: 10px; /* Rounded corners */
+}
+.btn-primary:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+.project {
+    border: 1px solid #ddd; /* Light border around project boxes */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.section {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.project {
+    flex: 1; /* Allow projects to grow and fill space */
+}
